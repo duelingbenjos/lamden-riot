@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>
+<style>
+	div {
+		z-index: 1;
+	}
+	html,
+	body {
+		margin: 0;
+		padding: 1vw;
+		background: #000;
+		color: #fff;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1rem;
+		overflow-x: hidden;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+
+		/* background-color: #19131c; */
+	}
+	.background {
+		height: 100vh;
+		width: 100vw;
+		/* overflow-x: hidden; */
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+		background-color: #19131c;
+		position: fixed;
+		/* display: block; */
+		top: 0;
+		left: 0;
+		z-index: -10;
+	}
+
+	a {
+		color: magenta;
+		/* text-decoration: none; */
+	}
+	
+	a:visited {
+		color: turquoise;
+	}
+</style>
